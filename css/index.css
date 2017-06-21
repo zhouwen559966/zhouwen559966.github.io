@@ -1,0 +1,248 @@
+html,body,ul,li,p{
+    padding:0;
+    margin: 0;
+}
+body{
+    overflow-x:hidden;
+}
+body{
+    box-sizing: border-box;
+
+}
+*{
+    font-family:"PingFang SC";
+}
+.clearfix{
+    clear: both;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+img{
+    display: block;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+#header_box{
+    width: 1200px;
+    margin:0 auto;
+}
+#logo{
+    height: 80px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#nav_box{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+}
+#nav_box li{
+    display: inline-block;
+    margin-right: 60px;
+}
+#nav_box li:last-child{
+    margin-right:0;
+    display: inline-block;
+}
+#nav_box li a{
+    font-size: 16px;
+}
+#nav_box #first a{
+    padding-top: 28px;
+    border-top: 2px solid #0eb493;
+}
+#nav_box li a:hover{
+    padding-top: 28px;
+    border-top: 2px solid #0eb493;
+}
+#banner{
+    width: 100%;
+    height: 540px;
+
+}
+#banner img{
+    padding-top:150px; ;
+}/*确定设计位置*/
+/*header*/
+/*about me*/
+#about_box{
+    width: 100%;
+    height: 460px;
+    background-color: #f4f7f9;
+}
+#about{
+    padding-top: 70px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color:#0eb493;
+    font-weight:700;
+}
+#about_box .about_title{
+    margin-bottom: 75px;
+}
+#about_box_content{
+    width: 1200px;
+    margin:0 auto;
+}
+#about_box_content .about_box_content_ul{
+    float: left;
+    margin-left: 50px;
+}
+#about_box_content .about_box_content_ul:first-child{
+    margin-left: 0;
+}
+#about_box_content .about_box_content_ul li{
+    float: left;
+}
+#about_box_content .about_box_content_ul .two{
+    margin-left: 20px;
+    color:#062033;
+}
+#about_box_content .about_box_content_ul .two_title{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#about_box_content .about_box_content_ul .two_text{
+    display: block;
+    width: 306px;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+/*about me*/
+/*case*/
+#case_box #case{
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color:#0eb493;
+    font-weight:700;
+}
+#case_box .about_title{
+    margin-bottom: 40px;
+}
+#case_box_nav{
+    margin-bottom: 60px;
+    text-align: center;
+}
+#case_box_nav li a{
+    color:#062033;
+    padding: 5px 13px;
+    font-size: 16px;
+}
+#case_box_nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+#case_box_nav li .first{
+    padding: 5px 13px;
+    background-color:#0eb493 ;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: white;
+    margin-left:0;
+}
+#case_box_nav li a:hover{
+    background-color:#0eb493 ;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px; ;
+    color: white;
+}
+/*case*/
+/*works*/
+.works_box{
+    width: 100%;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1440px){
+    .works_box{
+        width: 1150px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+}
+.works_box .works{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.works_box .works img{
+    width: 100%;
+}
+.works_box .works .photo{
+    display:inline-block;
+    position:relative;
+}
+.works_box .works .photo a span {
+    display:none;
+    cursor:hand;
+    text-align:center;
+    background:#0eb493 ;
+    font-size: 14px;
+}
+.works_box .works li{
+    background-clip: content-box;
+}
+.works_box .works .photo a:hover span{
+    display:block;
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:#fff;
+    filter:alpha(opacity=80);
+    -moz-opacity:0.8;
+    opacity:0.8;
+    width:100%;
+    height: 100%;
+    line-height: 1.5;
+}
+.works_box .hidden_box{
+    width: 100%;
+    height: 40px;
+    background-color:#86b8ad ;
+
+}
+#skill_box #skill{
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color:#0eb493;
+    font-weight:700;
+}
+#skill_box .about_title{
+    margin-bottom: 120px;
+}
+#skills_img{
+    margin-bottom: 180px;
+}
+
+@media screen and (max-width: 1126px){
+    #skills_img{
+        width: 100%;
+        margin-left:50px;
+        margin-right: 50px;
+        margin-bottom: 180px;
+    }
+}
+#footer_box{
+    width: 100%;
+    height: 100px;
+    background-color: #f4f7f9;
+
+}
+/*works*/
